@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "uploaded/{name}.csv",
+      "connection": ""
+    }
+  ],
+  "scriptFile": "../dist/blob-import-products-from-file/index.js"
+}
