@@ -10,7 +10,9 @@
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {
-    "@azure/storage-blob": "^12.17.0"
+    "@azure/service-bus": "^7.9.3",
+    "@azure/storage-blob": "^12.17.0",
+    "csv-parse": "^5.5.3"
   },
   "devDependencies": {
     "@azure/functions": "^3.0.0",
